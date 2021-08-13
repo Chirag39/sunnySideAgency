@@ -1,0 +1,180 @@
+#backdrop {
+    position: relative;
+    text-align: center;
+  }
+#mainnav{
+        position: absolute;
+        top: 2rem;
+        left: 10%;      
+}
+.navbar{
+    width:80%;
+}
+#navOptions{
+    padding-left: 55%;
+}
+#navOptions .nav-link{
+    padding:1rem;
+    color: white;
+    font-family: 'Barlow';
+    font-weight:500;
+    margin-right: 0.7rem;
+}
+#contact .nav-link{
+    padding:0.6rem 2rem 0.6rem 2rem;
+    margin-top:0.4rem;
+    color:black;
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    border: solid white 1px;
+    background-color: white;
+    border-radius: 30px;
+}
+#contact .nav-link:hover{
+    color:white;
+    background-color: rgb(107, 196, 255);
+}
+@media screen and (max-width:47em) {
+    .navbar-nav{
+        background-color: white;
+    }
+    #navOptions .nav-link{
+        color:black;
+        text-align: center;
+        margin-right: 0;
+    }
+    #contact .nav-link{
+        background-color: rgb(255, 217, 0);
+    }
+    div .firstBlock{
+        top:61%;
+    }
+}
+.firstBlock{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+}
+.firstBlock h1{
+    padding-bottom: 2%;
+}
+
+
+#fill{
+    width: 100%;
+}
+div h2{
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    }
+@media screen and (min-width:48em) {
+    div h2{font-size: 2.5rem;}   
+}
+#bg p{
+    padding-inline: 1rem;
+    text-align: center;
+    font-family: 'Barlow';
+    font-weight: 600;
+    color: hsl(210, 4%, 67%);
+    padding-bottom:1.5rem;
+}
+#bg h6{
+    font-family: 'Fraunces',serif;
+    font-weight:900;
+    text-decoration: underline rgb(250, 250, 85) 6px;
+    text-underline-offset: 1px;
+}
+#bg h6.learn2{
+    text-decoration: underline hsla(7, 99%, 70%, 0.589) 6px;
+    text-underline-offset: 1px;
+}
+#format{
+    text-align:center;
+}
+@media screen and (min-width:48em){
+    #format{
+        text-align: left;
+    }
+    #format p{
+        text-align: left;
+        padding-inline: 0;
+    }
+}
+
+#graphic{
+    position:relative;
+    text-align: center;
+}
+#graphic .overlay{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#gd{
+  color:hsl(167, 40%, 24%);  
+}
+#photo{
+    color:hsl(198, 62%, 26%);
+}
+#graphic p{
+    padding-inline: 0;
+    text-align: center;
+    font-family: 'Barlow';
+    font-weight: 600;
+}
+div h4{ 
+    font-family: 'Fraunces',serif;
+    font-weight:900;
+    padding:4rem 0;
+    color:hsl(210, 4%, 67%);
+    
+}
+#testimonial{
+    background-color: hsl(36, 33%, 97%);
+}
+
+#testimonial img{
+    border-radius: 50%;
+    width: 20%;
+    margin-bottom: 2.5rem;
+}
+
+#testimonial p{
+    font-family: 'Barlow';
+    font-weight:600;
+    font-size:1em;
+    color:hsl(213, 9%, 39%); 
+}
+#testimonial h5{
+    font-family: 'Fraunces',serif;
+    font-weight:900;
+}
+
+.foot{
+    text-align:center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #95D6C9;
+}
+.cyan{
+    width: 100%;
+    background-color: #95D6C9;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Barlow';
+    font-weight:600;
+    color:hsl(168, 34%, 41%);
+    padding-bottom: 3rem;
+}
+.container-fluid{
+    padding-left: 0px;
+}
+#bg{
+    background-color: hsl(42, 63%, 95%);
+}
