@@ -11,7 +11,7 @@
     width:80%;
 }
 #navOptions{
-    padding-left: 55%;
+    padding-left: 10%;
 }
 #navOptions .nav-link{
     padding:1rem;
@@ -46,10 +46,17 @@
     #contact .nav-link{
         background-color: rgb(255, 217, 0);
     }
-    div .firstBlock{
-        top:61%;
-    }
 }
+    @media screen and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+        div .firstBlock{
+            top:24%;
+        } /* for ipad pro portrait */
+      }
+    @media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        div .firstBlock{
+            top:27%;
+        } /* for ipad portrait */
+      }
 .firstBlock{
     position: absolute;
     top: 50%;
@@ -178,3 +185,10 @@ div h4{
 #bg{
     background-color: hsl(42, 63%, 95%);
 }
+div.row{
+    margin-left: 0;
+    margin-right: 0; 
+}
+div #block1{
+    padding-left: 0;
+    padding-right: 0;} /*Removing Bootstap padding*/
