@@ -44,7 +44,10 @@
         margin-right: 0;
     }
     #contact .nav-link{
-        background-color: rgb(255, 217, 0);
+        background-color: rgb(255, 217, 0);  
+    }
+     div .firstBlock{
+        top:61%;
     }
 }
     @media screen and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
